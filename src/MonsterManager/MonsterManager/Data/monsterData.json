@@ -1,1 +1,1 @@
-[{"Id":1,"Name":"Boogie","NumberOfEyes":3,"Color":"green","NumberOfArms":2},{"Id":2,"Name":"Manny","NumberOfEyes":2,"Color":"brown","NumberOfArms":4},{"Id":3,"Name":"Bobbie","NumberOfEyes":2,"Color":"Red","NumberOfArms":2}]
+[{"Id":1,"Name":"Boogie","NumberOfEyes":5,"Color":"green","NumberOfArms":0,"Image":"monster5.png"},{"Id":2,"Name":"Manny","NumberOfEyes":2,"Color":"white","NumberOfArms":2,"Image":"monster6.png"},{"Id":3,"Name":"Bobbie","NumberOfEyes":1,"Color":"Purple","NumberOfArms":0,"Image":"monster8.png"}]

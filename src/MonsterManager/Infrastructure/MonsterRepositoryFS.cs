@@ -60,6 +60,7 @@ namespace Infrastructure
             origMonster.Color = updateMonster.Color;
             origMonster.NumberOfEyes = updateMonster.NumberOfEyes;
             origMonster.NumberOfArms = updateMonster.NumberOfArms;
+            origMonster.Image = updateMonster.Image;
             SaveFile();
 
         }

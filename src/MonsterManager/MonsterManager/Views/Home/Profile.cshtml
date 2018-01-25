@@ -4,7 +4,7 @@
     ViewData["Title"] = "Monster Profile";
 }
 
-<h2>View</h2>
+<h2>@Html.DisplayFor(model => model.Name)</h2>
 
 <div>
     <h4>Monster</h4>
@@ -14,11 +14,10 @@
             <img src="~/images/@Model.Image" class="img-thumbnail" />
         </div>
     <ul>
-        <li>@Html.DisplayNameFor(model => model.Id):  @Html.DisplayFor(model => model.Id)</li>
-        <li>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name) </li>
-        <li> @Html.DisplayNameFor(model => model.NumberOfEyes): @Html.DisplayFor(model => model.NumberOfEyes)</li>
-        <li> @Html.DisplayNameFor(model => model.Color): @Html.DisplayFor(model => model.Color)</li>
-        <li>@Html.DisplayNameFor(model => model.NumberOfArms): @Html.DisplayFor(model => model.NumberOfArms)</li>
+        <li><strong>@Html.DisplayNameFor(model => model.Id): </strong> @Html.DisplayFor(model => model.Id)</li>
+        <li><strong>@Html.DisplayNameFor(model => model.NumberOfEyes):</strong> @Html.DisplayFor(model => model.NumberOfEyes)</li>
+        <li><strong>@Html.DisplayNameFor(model => model.Color):</strong> @Html.DisplayFor(model => model.Color)</li>
+        <li><strong>@Html.DisplayNameFor(model => model.NumberOfArms):</strong> @Html.DisplayFor(model => model.NumberOfArms)</li>
     </ul>
    </div>
               
