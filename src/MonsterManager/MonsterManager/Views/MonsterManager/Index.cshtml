@@ -27,6 +27,9 @@
                 <th>
                     @Html.DisplayNameFor(model => model.NumberOfArms)
                 </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Image)
+                </th>
             <th></th>
         </tr>
     </thead>
@@ -47,6 +50,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.NumberOfArms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

@@ -19,5 +19,7 @@ namespace ApplicationCore.Entities
 
         [Display(Name="Number of Arms")]
         public int NumberOfArms { get; set; }
+
+        public string Image { get; set; }
     }
 }
