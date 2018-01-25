@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using ApplicationCore.Entities;
 using ApplicationCore.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MonsterManager.Controllers
 {
+    [Authorize]
     public class MonsterManagerController : Controller
     {
         private readonly IMonsterRepository _monsterRepo;

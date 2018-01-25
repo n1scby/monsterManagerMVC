@@ -53,13 +53,15 @@
     <div class="col-md-4">
 
     </div>
-    <div class="col-md-4">
+    <div id="profile-list" class="col-md-4">
+        <h4>Monster Profiles</h4>
         <ul>
         @foreach (var item in Model)
         {
             <li> @Html.ActionLink(item.Name, "Profile", new { id = item.Id }) </li>
 
         }
+            </ul>
     </div>
     <div class="col-md-4">
     </div>

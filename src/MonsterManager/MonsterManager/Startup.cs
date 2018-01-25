@@ -41,6 +41,8 @@ namespace MonsterManager
             services.AddMvc();
             // Add Repository Service
             services.AddScoped<IMonsterRepository, MonsterRepositoryFS>();
+         //   services.AddScoped<IMonsterRepository, MonsterRepositoryMemory>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

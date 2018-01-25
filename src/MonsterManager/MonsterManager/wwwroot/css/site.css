@@ -16,9 +16,21 @@
     line-height: 1.4;
 }
 
+.carousel-caption {
+    color: gray !important;
+}
+
 /* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
+.carousel-inner .item  {
     width: 100%;
+} 
+
+.item img {
+    padding-left: 5rem;
+}
+
+.carousel-indicators li {
+    background-color: lightblue;
 }
 
 /* QR code generator */
@@ -33,3 +45,21 @@
         display: none;
     }
 }
+
+#profile-list {
+    margin-top: 2rem;
+}
+
+#profile {
+    margin-top: 2rem;
+   
+}
+
+#profile h3 {
+    color: darkorange;
+   
+}
+
+#profile li {list-style: none;}
+
+#profile ul {margin-top: 2rem;}
